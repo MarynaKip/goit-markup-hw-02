@@ -61,6 +61,12 @@ body {
   color: var(--title-text-color);
 }
 
+.button.secondary:hover,
+.button.secondary:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+}
+
 /* Footer */
 
 .address {
