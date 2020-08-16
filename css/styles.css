@@ -13,6 +13,22 @@ body {
   color: var(--primary-text-color);
 }
 
+.logo {
+  color: var(--accent-color);
+}
+
+.site-nav .link {
+  color: var(--title-text-color);
+}
+
+.site-nav .link.current,
+.site-nav .link:hover,
+.site-nav .link:focus,
+.site-contact .link:hover,
+.site-contact .link:focus {
+  color: var(--accent-color);
+}
+
 .section-title {
   color: var(--title-text-color);
 }
@@ -32,9 +48,4 @@ body {
 .button.secondary {
   background-color: var(--secondary-button-color);
   color: var(--title-text-color);
-}
-
-button.secondary:hover {
-  background-color: var(--accent-color);
-  color: var(--white-color);
 }
