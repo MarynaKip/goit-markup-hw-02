@@ -25,8 +25,8 @@ body {
 }
 
 .button.primary {
-  background-color: var(--white-color);
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
 
 .button.secondary {
@@ -35,6 +35,6 @@ body {
 }
 
 button.secondary:hover {
-  background-color: var(--white-color);
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--white-color);
 }
