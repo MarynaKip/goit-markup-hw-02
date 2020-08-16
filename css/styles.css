@@ -33,6 +33,10 @@ body {
   color: var(--title-text-color);
 }
 
+.hero-title {
+  color: var(--white-color);
+}
+
 .button {
   font-size: 24px;
   padding: 12px 24px;
