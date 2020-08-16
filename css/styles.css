@@ -24,6 +24,10 @@ body {
   color: var(--title-text-color);
 }
 
+.site-contact .link {
+  color: var(--primary-text-color);
+}
+
 .site-nav .link.current,
 .site-nav .link:hover,
 .site-nav .link:focus,
