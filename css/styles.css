@@ -1,0 +1,36 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --primary-bg-color: #e5e5e5;
+  --secondary-bg-color: #2f303a;
+  --secondary-button-color: #f5f4fa;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+}
+
+.button {
+}
+
+.button.primary {
+  background-color: var(--white-color);
+  color: var(--accent-color);
+}
+
+.button.secondary {
+  background-color: var(--secondary-button-color);
+  color: var(--title-text-color);
+}
+
+button.secondary:hover {
+  background-color: var(--white-color);
+  color: var(--accent-color);
+}
