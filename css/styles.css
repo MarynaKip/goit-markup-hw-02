@@ -21,6 +21,12 @@ body {
   color: var(--accent-color);
   font-family: Raleway, sans-serif;
 }
+.logo .dark {
+  color: var(--white-color);
+}
+.logo .light {
+  color: var(--title-text-color);
+}
 
 .site-nav .link {
   color: var(--title-text-color);
