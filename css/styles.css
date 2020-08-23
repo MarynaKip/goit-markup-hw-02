@@ -37,9 +37,6 @@ a {
   color: var(--title-text-color);
 }
 
-.site-nav {
-}
-
 .site-nav .link {
   color: var(--title-text-color);
   font-weight: 500;
@@ -78,31 +75,31 @@ a {
 }
 .advantages p {
   font-size: 14px;
-line-height: 1.71
-letter-spacing: 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
- h2.section-title {
+h2.section-title {
   font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .works .section-title {
   font-weight: 700;
-font-size: 18px;
-line-height: 2;
-letter-spacing: 0.06em;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 
 .works p {
- color: var(--primary-text-color)
+  color: var(--primary-text-color);
 
-font-size: 16px;
-line-height: 1.87;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
 }
 
 .hero {
@@ -123,21 +120,19 @@ letter-spacing: 0.03em;
   background-color: var(--secondary-button-color);
 }
 
-.team h3{
+.team h3 {
   font-weight: 500;
-font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
-
-
 
 .team p {
   font-size: 16px;
-line-height: 1.19;
-text-align: center;
-letter-spacing: 0.03em;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* Buttons */
@@ -165,13 +160,13 @@ letter-spacing: 0.03em;
   background-color: var(--secondary-button-color);
   color: var(--title-text-color);
   font-weight: 500;
-font-size: 16px;
-line-height: 1.62;
-letter-spacing: 0.03em;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 }
 
-.button.secondary:hover,
-.button.secondary:focus {
+.button.filter:hover,
+.button.filter:focus {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
@@ -185,10 +180,15 @@ footer {
   color: var(--white-color);
   font-style: normal;
   font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 .address .link {
   color: var(--secondary-address-color);
-  }
+}
+
+.address .link:hover,
+.address .link:focus {
+  color: var(--accent-color);
+}
