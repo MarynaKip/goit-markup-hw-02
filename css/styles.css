@@ -56,7 +56,9 @@ a {
 .site-nav .link:hover,
 .site-nav .link:focus,
 .site-contact .link:hover,
-.site-contact .link:focus {
+.site-contact .link:focus,
+.address .link:hover,
+.address .link:focus {
   color: var(--accent-color);
 }
 
@@ -185,9 +187,4 @@ footer {
 
 .address .link {
   color: var(--secondary-address-color);
-}
-
-.address .link:hover,
-.address .link:focus {
-  color: var(--accent-color);
 }
