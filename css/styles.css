@@ -1,33 +1,47 @@
 body {
-    font-family: Roboto;
-    font-weight: Regular;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
-    color: #2E2F42;
-    ;
+    letter-spacing: 0.02em;
+    color: #434455;
+    background-color: #FFFFFF;
 }
 
 h1 {
     font-family: Roboto;
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 56px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     line-height: 60px;
 }
 
 h2 {
     font-family: Roboto;
-    font-weight: Bold;
+    font-weight: 700;
     font-size: 36px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 }
 
 h3 {
     font-family: Roboto;
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 20px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+}
+
+.navigation-logo {
+    font-family: "Raleway";
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+.navigation-logo-accent {
+    color: #2e2f42;
 }
 
 /* .body-medium {
@@ -35,15 +49,15 @@ h3 {
     font-weight: Medium;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
 } */
 
 .button {
     font-family: Roboto;
-    font-weight: Medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     background-color: #4D5AE5;
     cursor: pointer;
 }
@@ -58,21 +72,22 @@ h3 {
     font-weight: Regular;
     font-size: 12px;
     line-height: 16px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04em;
     text-decoration: underline;
 }
 
 .navigation-link {
     font-family: Roboto;
-    font-weight: Medium;
+    font-weight: 500 ;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #2E2F42;
 }
 
-.navigation-link:hover {
-    color:#2E2F42;
+.navigation-link:hover,
+.navigation-link:focus {
+    color:#404bbf;
 }
 
 .navigation-link-studio:active {
@@ -83,11 +98,13 @@ h3 {
     font-family: Roboto;
     font-weight: Regular;
     font-size: 16px;
+    font-style: normal;
     line-height: 24px;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
     color: #434455;
 }
 
-.address-link:hover {
-    color: #404BBF;
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
 }
