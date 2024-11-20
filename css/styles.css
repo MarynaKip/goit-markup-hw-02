@@ -22,8 +22,12 @@ h2 {
     letter-spacing: 0.02em;
 } */
 
+address {
+    font-style: normal
+}
+
 .navigation-logo {
-    font-family: "Raleway";
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -67,9 +71,9 @@ h2 {
     color:#404bbf;
 }
 
-.navigation-link-studio:active {
+/* .navigation-link-studio:active {
     text-decoration: underline;
-}
+} */
 
 .address-link {
     font-family: Roboto;
@@ -97,7 +101,7 @@ h2 {
     letter-spacing: 0.02em;
     line-height: 1.07;
     text-align: center;
-    color: #ffffff;
+    color: #2e2f42;
 }
 
 .banner-button {
@@ -122,13 +126,91 @@ h2 {
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
-
 }
 
 .goals-list-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    
+
     color: #434455;
+}
+
+.team {
+    background-color: #F4F4FD
+}
+.team-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+
+.team-list-item {
+    background-color: #FFFFFF;
+
+}
+.team-list-header {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+    color: #2e2f42;
+}
+.team-list-text {
+    font-size: 16px;
+}
+
+/* .portfolio {
+} */
+.portfolio-header {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+}
+/* .portfolio-list {
+}
+.portfolio-list-item {
+}
+.portfolio-list-image {
+}
+.portfolio-list-text {
+}
+.portfoli-list-item {
+} */
+.portfolio-list-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    
+}
+
+.footer {
+    background-color:  #2e2f42;
+
+}
+.footer-logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:  #4d5ae5;
+
+}
+.footer-logo-accent {
+    color: #f4f4fd;
+
+}
+.footer-text {
+    color: #F4F4FD;;
 }
