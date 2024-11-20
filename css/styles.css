@@ -1,0 +1,93 @@
+body {
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+    ;
+}
+
+h1 {
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 56px;
+    letter-spacing: 2%;
+    line-height: 60px;
+}
+
+h2 {
+    font-family: Roboto;
+    font-weight: Bold;
+    font-size: 36px;
+    letter-spacing: 2%;
+}
+
+h3 {
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 20px;
+    letter-spacing: 2%;
+}
+
+/* .body-medium {
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+} */
+
+.button {
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 4%;
+    background-color: #4D5AE5;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #4D5AE5;
+    ;
+}
+
+.link {
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 4%;
+    text-decoration: underline;
+}
+
+.navigation-link {
+    font-family: Roboto;
+    font-weight: Medium;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #2E2F42;
+}
+
+.navigation-link:hover {
+    color:#2E2F42;
+}
+
+.navigation-link-studio:active {
+    text-decoration: underline;
+}
+
+.address-link {
+    font-family: Roboto;
+    font-weight: Regular;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 2%;
+    color: #434455;
+}
+
+.address-link:hover {
+    color: #404BBF;
+}
