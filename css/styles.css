@@ -118,17 +118,15 @@ address {
 .banner-button:hover,
 .banner-button:focus {
     background-color: #404BBF;
-    
 }
 
-.goals-header {
-    color: #2e2f42;
-}
 .goals-list-header {
     font-family: Roboto;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: 0.02em;
+    color: #2e2f42;
+
 }
 
 .goals-list-text {
