@@ -101,7 +101,7 @@ address {
     letter-spacing: 0.02em;
     line-height: 1.07;
     text-align: center;
-    color: #2e2f42;
+    color: #ffffff
 }
 
 .banner-button {
@@ -118,9 +118,12 @@ address {
 .banner-button:hover,
 .banner-button:focus {
     background-color: #404BBF;
-    ;
+    
 }
 
+.goals-header {
+    color: #2e2f42;
+}
 .goals-list-header {
     font-family: Roboto;
     font-weight: 500;
